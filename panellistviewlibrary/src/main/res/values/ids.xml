@@ -1,4 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <item type="id" name="move_layout" />
+    <item type="id" name="tv_title_name" />
+    <item type="id" name="iv_short_type" />
+    <item type="id" name="iv_draw_right" />
 </resources>

@@ -96,13 +96,26 @@ public class PanelListView extends RelativeLayout {
         this.addView(linearLayout, new LayoutParams(LayoutParams.MATCH_PARENT, ViewGroup.LayoutParams.MATCH_PARENT));
     }
 
-    public void setNeedShortTitle(boolean needShortTitle) {
-        this.needShortTitle = needShortTitle;
-        if (needShortTitle) {
-            titleLayoutRes = defaultSortHeaderRes;
-        }
 
+    /**
+     * 是否支持排序，排序功能需要自己实现，如果要更改排序所展示的图片请实现setShortTitle
+     * 详情参考 Demo
+     */
+    public void setNeedShortTitle() {
+        this.needShortTitle = true;
+        titleLayoutRes = defaultSortHeaderRes;
     }
+
+
+    /**
+     * 定义自定排序头部，头部只设置排序的和默认图片请自行更改
+     * 详细使用请参考 Demo
+     * @param shortTitleRes
+     */
+    public void setShortTitle(@IdRes int shortTitleRes) {
+        titleLayoutRes = shortTitleRes;
+    }
+
 
     /**
      * 设置标题栏背景颜色
