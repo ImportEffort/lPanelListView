@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                xmlns:tools="http://schemas.android.com/tools"
+                xmlns:app="http://schemas.android.com/apk/res-auto"
+                android:id="@+id/activity_main"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+    <com.wangshijia.www.panellistviewlibrary.PanelListView
+        android:id="@+id/hv_scrollview"
+        android:layout_width="match_parent"
+        app:columnPadding="15dp"
+        app:titleBgColor="@color/colorPrimary"
+        app:titleTextColor="@color/colorAccent"
+        app:moveViewWidth="90dp"
+        app:columnTitleWidth="122dp"
+        app:titleItemHeight="50dp"
+        app:titleTextSize="18sp"
+        app:columnTitleName="股票名称"
+        android:layout_height="match_parent"/>
+    <!--<attr name="titleBgColor" format="color"/>-->
+    <!--<attr name="moveViewWidth" format="dimension"/>-->
+    <!--<attr name="columnTitleWidth" format="dimension"/>-->
+    <!--<attr name="titleItemHeight" format="dimension"/>-->
+    <!--<attr name="columnPadding" format="dimension"/>-->
+    <!--<attr name="titleLayoutRes" format="reference"/>-->
+    <!--<attr name="titleTextSize" format="dimension"/>-->
+    <!--<attr name="titleTextColor" format="color"/>-->
+    <!--<attr name="columnTitleName" format="string"/>-->
+</RelativeLayout>

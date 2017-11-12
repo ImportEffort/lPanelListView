@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="PanelListView">
+        <attr name="titleBgColor" format="color"/>
+        <attr name="moveViewWidth" format="dimension"/>
+        <attr name="columnTitleWidth" format="dimension"/>
+        <attr name="titleItemHeight" format="dimension"/>
+        <attr name="columnPadding" format="dimension"/>
+        <attr name="titleLayoutRes" format="reference"/>
+        <attr name="titleTextSize" format="dimension"/>
+        <attr name="titleTextColor" format="color"/>
+        <attr name="columnTitleName" format="string"/>
+    </declare-styleable>
+</resources>
